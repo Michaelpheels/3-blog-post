@@ -1,0 +1,38 @@
+header {
+    text-align: start;
+    background: gray;
+    color: white;
+    padding: 20px;
+}
+body{
+    font-family: monospace;
+    margin: 0;
+    padding: 0;
+    background: white;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    padding: 20px;
+    gap: 20px;
+}
+
+article{
+    background: white;
+    padding: 30px;
+    margin: 30px;
+    width: 500px;
+    border-radius: 5px;
+     box-shadow: 5px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    background: gray;
+    color: white;
+    padding: 20px;
+    bottom: 0;
+}
